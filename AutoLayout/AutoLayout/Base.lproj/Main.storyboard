@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kcR-uq-p3e">
-                                <rect key="frame" x="20" y="104" width="374" height="31"/>
+                                <rect key="frame" x="150" y="144" width="244" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="AutoLayout">
                                     <backgroundConfiguration key="background">
@@ -43,11 +43,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="kcR-uq-p3e" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="3tR-8H-mCq"/>
+                            <constraint firstItem="kcR-uq-p3e" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="3tR-8H-mCq"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kcR-uq-p3e" secondAttribute="trailing" constant="20" id="6tm-Yt-Bgj"/>
                             <constraint firstItem="1Mv-iF-fJI" firstAttribute="top" secondItem="kcR-uq-p3e" secondAttribute="bottom" constant="40" id="WXe-ed-qu0"/>
                             <constraint firstItem="1Mv-iF-fJI" firstAttribute="leading" secondItem="kcR-uq-p3e" secondAttribute="leading" id="cr8-Fj-pZR"/>
-                            <constraint firstItem="kcR-uq-p3e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="gBS-3e-yS4"/>
+                            <constraint firstItem="kcR-uq-p3e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="150" id="gBS-3e-yS4"/>
                             <constraint firstItem="1Mv-iF-fJI" firstAttribute="trailing" secondItem="kcR-uq-p3e" secondAttribute="trailing" id="ucQ-uZ-uca"/>
                         </constraints>
                     </view>
