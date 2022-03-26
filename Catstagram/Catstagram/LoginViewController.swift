@@ -24,13 +24,17 @@ class LoginViewController: UIViewController {
 
     @IBAction func loginButtonDidTap(_: UIButton) {}
 
-    @IBAction func registerButtonDidtap(_: UIButton) {}
+    @IBAction func registerButtonDidtap(_: UIButton) {
+        // 화면 전환
+        // 1. 스토리보드를 생성
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        // 2. 뷰 컨트롤러를 생성
+        let registerViewController = storyboard.instantiateViewController(withIdentifier: "RegisterVC") as! RegisterViewController
+        // 3. 화면전환 메소드를 이용해서 화면을 전환
+        navigationController?.pushViewController(registerViewController, animated: true)
+//        self.present(registerViewController, animated: true, completion: nil)
+    }
 
-    
-    
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
