@@ -17,6 +17,7 @@
 		9B22BA2E27EC97A600039F60 /* CatstagramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B22BA2D27EC97A600039F60 /* CatstagramUITestsLaunchTests.swift */; };
 		9B22BA3B27ECA5A700039F60 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B22BA3A27ECA5A700039F60 /* LoginViewController.swift */; };
 		9B5A9F8B27EF10C700ECA117 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5A9F8A27EF10C700ECA117 /* RegisterViewController.swift */; };
+		9B5A9F8D27F47BA500ECA117 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5A9F8C27F47BA500ECA117 /* Color+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		9B22BA2D27EC97A600039F60 /* CatstagramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatstagramUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9B22BA3A27ECA5A700039F60 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9B5A9F8A27EF10C700ECA117 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		9B5A9F8C27F47BA500ECA117 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				9B22BA1327EC97A600039F60 /* Assets.xcassets */,
 				9B22BA1527EC97A600039F60 /* LaunchScreen.storyboard */,
 				9B22BA1827EC97A600039F60 /* Info.plist */,
+				9B5A9F8C27F47BA500ECA117 /* Color+Extension.swift */,
 			);
 			path = Catstagram;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B22BA3B27ECA5A700039F60 /* LoginViewController.swift in Sources */,
+				9B5A9F8D27F47BA500ECA117 /* Color+Extension.swift in Sources */,
 				9B22BA0B27EC97A600039F60 /* AppDelegate.swift in Sources */,
 				9B22BA0D27EC97A600039F60 /* SceneDelegate.swift in Sources */,
 				9B5A9F8B27EF10C700ECA117 /* RegisterViewController.swift in Sources */,
