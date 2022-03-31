@@ -11,19 +11,22 @@ class LoginViewController: UIViewController {
     var email = String()
     var password = String()
     var userInfo: UserInfo?
+
     @IBOutlet var registerButton: UIButton!
 
     @IBOutlet var loginButton: UIButton!
 
-    @IBAction func TextFieldEditingChanged(_ sender: UITextField) {
+    @IBAction func emailTextFieldEditingChanged(_ sender: UITextField) {
         let text = sender.text ?? ""
         // 조건 ?? 실행문 : 조건이 거짓일때만 ""를 실행한다는 뜻
         // 값이 없을 때(비어있을 때)는 "" 가 존재하게 하여 Wrapping
+
         email = text
     } // 입력할 때마다 호출 되는 함수
 
     @IBAction func passwordTextFieldEditingChanged(_ sender: UITextField) {
         let text = sender.text ?? ""
+
         password = text
     }
 
@@ -34,12 +37,8 @@ class LoginViewController: UIViewController {
             return
         } // Data 있으면 userInfo에 저장, 없으면 return으로 종료
         if userInfo.email == email, userInfo.password == password {
-            loginButton.backgroundColor = .facebookColor
-            loginButton.isEnabled = true
-            print("다음화면으로 이동")
-        } else {
-            loginButton.backgroundColor = .disabledButtonColor
-            loginButton.isEnabled = false
+            let vc = storyboard?.instantiateViewController(withIdentifier: "TestVC") as! TestViewController
+            present(vc, animated: true, completion: nil)
         }
     }
 

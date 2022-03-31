@@ -21,6 +21,7 @@
 		9B5A9F8F27F5917500ECA117 /* UIView+Extentsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5A9F8E27F5917500ECA117 /* UIView+Extentsion.swift */; };
 		9B5A9F9127F5939800ECA117 /* UIViewController+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5A9F9027F5939800ECA117 /* UIViewController+Extention.swift */; };
 		9B5A9F9327F5A9F200ECA117 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5A9F9227F5A9F200ECA117 /* UserInfo.swift */; };
+		9BE31CD127F5C35100C8E383 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE31CD027F5C35100C8E383 /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		9B5A9F8E27F5917500ECA117 /* UIView+Extentsion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extentsion.swift"; sourceTree = "<group>"; };
 		9B5A9F9027F5939800ECA117 /* UIViewController+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extention.swift"; sourceTree = "<group>"; };
 		9B5A9F9227F5A9F200ECA117 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		9BE31CD027F5C35100C8E383 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				9B22BA0A27EC97A600039F60 /* AppDelegate.swift */,
+				9BE31CD027F5C35100C8E383 /* TestViewController.swift */,
 				9B5A9F9227F5A9F200ECA117 /* UserInfo.swift */,
 				9B22BA0C27EC97A600039F60 /* SceneDelegate.swift */,
 				9B22BA1027EC97A600039F60 /* Main.storyboard */,
@@ -280,6 +283,7 @@
 				9B5A9F9327F5A9F200ECA117 /* UserInfo.swift in Sources */,
 				9B22BA0B27EC97A600039F60 /* AppDelegate.swift in Sources */,
 				9B22BA0D27EC97A600039F60 /* SceneDelegate.swift in Sources */,
+				9BE31CD127F5C35100C8E383 /* TestViewController.swift in Sources */,
 				9B5A9F8B27EF10C700ECA117 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

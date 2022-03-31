@@ -28,7 +28,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <action selector="passwordTextFieldEditingChanged:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Wx3-Hp-3zQ"/>
+                                    <action selector="passwordTextFieldEditingChanged:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="rZH-Fq-dob"/>
                                 </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E-mail" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r2i-01-A85">
@@ -36,7 +36,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <action selector="TextFieldEditingChanged:" destination="BYZ-38-t0r" eventType="editingChanged" id="Wv4-9N-sts"/>
+                                    <action selector="emailTextFieldEditingChanged:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="9JQ-Gq-K9t"/>
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="비밀번호를 잊으셨나요?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vKh-rP-Ad4">
@@ -45,7 +45,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KpU-V9-08o">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KpU-V9-08o">
                                 <rect key="frame" x="10" y="529" width="394" height="54"/>
                                 <color key="backgroundColor" name="disabledButtonColor"/>
                                 <constraints>
@@ -56,11 +56,10 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <buttonConfiguration key="configuration" style="plain" title="로그인" titleAlignment="automatic">
-                                    <color key="baseForegroundColor" name="facebookColor"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="loginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xuo-6g-r60"/>
-                                    <action selector="loginButtonDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ls5-1M-Ua4"/>
+                                    <action selector="loginButtonDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZWP-yE-p0U"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="또는" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oz1-e8-Heo">
@@ -105,7 +104,7 @@
                                     <color key="baseForegroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="registerButtonDidtap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EU0-RD-WS3"/>
+                                    <action selector="registerButtonDidtap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f8N-W4-aPi"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -149,13 +148,28 @@
                     </view>
                     <navigationItem key="navigationItem" id="258-Q3-3SA"/>
                     <connections>
-                        <outlet property="loginButton" destination="KpU-V9-08o" id="tbK-PA-MLl"/>
+                        <outlet property="loginButton" destination="KpU-V9-08o" id="6Uw-Zp-hwq"/>
                         <outlet property="registerButton" destination="KeY-BI-uxV" id="Cpn-Fw-jJB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="785.50724637681162" y="93.75"/>
+        </scene>
+        <!--Test View Controller-->
+        <scene sceneID="HC1-rk-84S">
+            <objects>
+                <viewController storyboardIdentifier="TestVC" id="aIy-nP-VSt" customClass="TestViewController" customModule="Catstagram" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="TestVC" id="4T3-p9-kAz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="BoC-lg-1qY"/>
+                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hVj-Rp-aXg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="870" y="799"/>
         </scene>
         <!--Register View Controller-->
         <scene sceneID="2zP-bR-cje">
@@ -348,9 +362,6 @@
         </namedColor>
         <namedColor name="disabledButtonColor">
             <color red="0.77647058823529413" green="0.87058823529411766" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="facebookColor">
-            <color red="0.25490196078431371" green="0.57647058823529407" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

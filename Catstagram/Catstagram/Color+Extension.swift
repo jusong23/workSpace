@@ -21,4 +21,10 @@ extension UIColor {
         blue: 0.980,
         alpha: 1.0
     )
+    static let white = UIColor(
+        red: 0,
+        green: 0,
+        blue: 0,
+        alpha: 1.0
+    )
 }
