@@ -28,7 +28,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <action selector="passwordTextFieldEditingChanged:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="rZH-Fq-dob"/>
+                                    <action selector="passwordTextFieldEditingChanged:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Vpu-xG-bQh"/>
                                 </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E-mail" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r2i-01-A85">
@@ -36,7 +36,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <action selector="emailTextFieldEditingChanged:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="9JQ-Gq-K9t"/>
+                                    <action selector="emailTextFieldEditingChanged:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="jjg-Wo-U5J"/>
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="비밀번호를 잊으셨나요?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vKh-rP-Ad4">
@@ -59,7 +59,7 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="loginButtonDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v3K-re-q45"/>
+                                    <action selector="loginButtonDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J8B-4p-9Ll"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="또는" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oz1-e8-Heo">
@@ -104,7 +104,7 @@
                                     <color key="baseForegroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="registerButtonDidtap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f8N-W4-aPi"/>
+                                    <action selector="registerButtonDidtap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yyP-S4-HMA"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -148,8 +148,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="258-Q3-3SA"/>
                     <connections>
-                        <outlet property="loginButton" destination="KpU-V9-08o" id="6Uw-Zp-hwq"/>
-                        <outlet property="registerButton" destination="KeY-BI-uxV" id="Cpn-Fw-jJB"/>
+                        <outlet property="loginButton" destination="KpU-V9-08o" id="Nbn-5i-8Gh"/>
+                        <outlet property="registerButton" destination="KeY-BI-uxV" id="UyK-Hh-6Ov"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -281,7 +281,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VYl-us-WfG">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VYl-us-WfG">
                                 <rect key="frame" x="20" y="657" width="374" height="52"/>
                                 <color key="backgroundColor" name="disabledButtonColor"/>
                                 <state key="normal" title="Button"/>
@@ -290,7 +290,7 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="registerButtonDidTap:" destination="fSx-qz-8tx" eventType="touchUpInside" id="Jdn-3i-tTE"/>
+                                    <action selector="registerButtonDidTap:" destination="fSx-qz-8tx" eventType="touchUpInside" id="bcT-EV-5zH"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xgq-hO-Ao0">
@@ -383,11 +383,11 @@
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
-                        <outlet property="emailTextField" destination="xLh-et-Cx8" id="YqR-Ru-sMo"/>
-                        <outlet property="nameTextField" destination="t1Y-ZK-OUl" id="Gti-GT-L6o"/>
-                        <outlet property="nicknameTextField" destination="nks-ge-JuO" id="Rja-6t-8Yd"/>
-                        <outlet property="passwordTextField" destination="Odg-8U-PWf" id="9ND-sL-Fx9"/>
-                        <outlet property="signUpButton" destination="VYl-us-WfG" id="bux-Lj-HMi"/>
+                        <outlet property="emailTextField" destination="xLh-et-Cx8" id="vNJ-mp-dcY"/>
+                        <outlet property="nameTextField" destination="t1Y-ZK-OUl" id="Blr-L8-XKB"/>
+                        <outlet property="nicknameTextField" destination="nks-ge-JuO" id="F6L-0B-1Vz"/>
+                        <outlet property="passwordTextField" destination="Odg-8U-PWf" id="PEt-3s-scr"/>
+                        <outlet property="signUpButton" destination="VYl-us-WfG" id="PPG-Rz-VoZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Bv-xT-Stk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

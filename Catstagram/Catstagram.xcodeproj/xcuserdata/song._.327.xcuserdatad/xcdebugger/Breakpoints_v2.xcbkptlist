@@ -3,4 +3,99 @@
    uuid = "A5DFF732-10DF-49DD-AC6A-9833640E5DE8"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FCF74BBA-83B8-4B6E-87C7-9EEE912712FF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Catstagram/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "LoginViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "FCF74BBA-83B8-4B6E-87C7-9EEE912712FF - ead08c6aa74f7558"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Catstagram.LoginViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Catstagram.LoginViewController"
+                  moduleName = "Catstagram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/song._.327/Documents/Xcode_App/workSpace/Catstagram/Catstagram/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "FCF74BBA-83B8-4B6E-87C7-9EEE912712FF - 74aa9720cd33d133"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Catstagram.LoginViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Catstagram.LoginViewController"
+                  moduleName = "Catstagram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/song._.327/Documents/Xcode_App/workSpace/Catstagram/Catstagram/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "FCF74BBA-83B8-4B6E-87C7-9EEE912712FF - 2277b4404ba98be1"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Catstagram.LoginViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Catstagram.LoginViewController&gt;"
+                  moduleName = "Catstagram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/song._.327/Documents/Xcode_App/workSpace/Catstagram/Catstagram/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "FCF74BBA-83B8-4B6E-87C7-9EEE912712FF - 1337d31a2b5d193c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Catstagram.LoginViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Catstagram.LoginViewController&gt;"
+                  moduleName = "Catstagram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/song._.327/Documents/Xcode_App/workSpace/Catstagram/Catstagram/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "FCF74BBA-83B8-4B6E-87C7-9EEE912712FF - 46f205d1c56948c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Catstagram.LoginViewController.__deallocating_deinit"
+                  moduleName = "Catstagram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/song._.327/Documents/Xcode_App/workSpace/Catstagram/Catstagram/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
