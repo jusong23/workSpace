@@ -11,9 +11,9 @@ class LoginViewController: UIViewController {
     var password = String()
     var userInfo: UserInfo?
 
-    @IBOutlet var registerButton: UIButton!
+    @IBOutlet weak var registerButton: UIButton!
 
-    @IBOutlet var loginButton: UIButton!
+    @IBOutlet weak var loginButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,20 +34,23 @@ class LoginViewController: UIViewController {
         self.password = text
     }
 
-    @IBAction func loginButtonDidTap(_: UIButton) {
-        // 회원가입 정보를 전달받아서, 그것과 textField 데이터가 일치하면u
+    @IBAction func loginButtonDidTap(_ sender: UIButton) {
+        // 회원가입 정보를 전달받아서, 그것과 textField 데이터가 일치하면
         // 로그인이 되어야한다.
         guard let userInfo = self.userInfo else {
             return
         } // Data 있으면 userInfo에 저장, 없으면 return으로 종료
         if userInfo.email == self.email, userInfo.password == self.password {
+            self.loginButton.backgroundColor = .facebookColor
             let vc = storyboard?.instantiateViewController(withIdentifier: "TabBarVC") as! UITabBarController
             vc.modalPresentationStyle = .fullScreen
             self.present(vc, animated: true, completion: nil)
-        } else {}
+        } else {
+            self.loginButton.backgroundColor = .disabledButtonColor
+        }
     }
 
-    @IBAction func registerButtonDidtap(_: UIButton) {
+    @IBAction func registerButtonDidtap(_ sender: UIButton) {
         // 화면 전환
         // 1. 스토리보드를 생성
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
@@ -77,3 +80,7 @@ class LoginViewController: UIViewController {
 //
 //    }
 }
+
+
+// 텍스트 필드에 아이디, 비밀번호 입력 했는데 로그인 버튼이 눌리긴 하지만 다음으로 안 넘어감
+// 가입하기 -> 백 버튼으로 다시 돌아왔을땐 가능

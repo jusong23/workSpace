@@ -10,7 +10,7 @@ class RegisterViewController: UIViewController {
     // MARK: - Properties
     var email: String = ""
     var name: String = ""
-    var nickName: String = ""
+    var nickname: String = ""
     var password: String = ""
 
     var userInfo: ((UserInfo) -> Void)?
@@ -29,7 +29,7 @@ class RegisterViewController: UIViewController {
         }
     }
 
-    var isValidNickName = false {
+    var isValidNickname = false {
         didSet {
             self.validUserInfo()
         }
@@ -76,8 +76,8 @@ class RegisterViewController: UIViewController {
             self.isValidName = text.count > 2
             self.name = text
         case nicknameTextField:
-            self.isValidNickName = text.count > 2
-            self.nickName = text
+            self.isValidNickname = text.count > 2
+            self.nickname = text
         case passwordTextField:
             self.isValidPassword = text.isValidPassword()
             self.password = text
@@ -86,18 +86,19 @@ class RegisterViewController: UIViewController {
         }
     }
 
-    @IBAction func backButtonDidTap(_: UIBarButtonItem) {
+    @IBAction func backButtonDidTap(_ sender: UIBarButtonItem) {
         // 뒤로가기
-        navigationController?.popViewController(animated: true)
+        self.navigationController?.popViewController(animated: true)
+        
     }
 
-    @IBAction func registerButtonDidTap(_: UIButton) {
-        navigationController?.popViewController(animated: true)
+    @IBAction func registerButtonDidTap(_ sender: UIButton) {
+        self.navigationController?.popViewController(animated: true)
 
         let userInfo = UserInfo(
             email: self.email,
             name: self.name,
-            nickName: self.nickName,
+            nickname: self.nickname,
             password: self.password
         )
         self.userInfo?(userInfo)
@@ -114,7 +115,7 @@ class RegisterViewController: UIViewController {
     private func validUserInfo() {
         if isValidEamil,
            isValidName,
-           isValidNickName,
+           isValidNickname,
            isValidPassword
         {
             signUpButton.isEnabled = true
