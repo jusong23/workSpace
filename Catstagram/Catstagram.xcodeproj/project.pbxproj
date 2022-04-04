@@ -21,6 +21,7 @@
 		9B5A9F8F27F5917500ECA117 /* UIView+Extentsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5A9F8E27F5917500ECA117 /* UIView+Extentsion.swift */; };
 		9B5A9F9127F5939800ECA117 /* UIViewController+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5A9F9027F5939800ECA117 /* UIViewController+Extention.swift */; };
 		9B5A9F9327F5A9F200ECA117 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5A9F9227F5A9F200ECA117 /* UserInfo.swift */; };
+		9B6BFC7227FACA410092291B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6BFC7127FACA410092291B /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		9B5A9F8E27F5917500ECA117 /* UIView+Extentsion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extentsion.swift"; sourceTree = "<group>"; };
 		9B5A9F9027F5939800ECA117 /* UIViewController+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extention.swift"; sourceTree = "<group>"; };
 		9B5A9F9227F5A9F200ECA117 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		9B6BFC7127FACA410092291B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		9B22BA0927EC97A600039F60 /* Catstagram */ = {
 			isa = PBXGroup;
 			children = (
+				9B6BFC7027FAC9ED0092291B /* Home */,
 				9B22BA0A27EC97A600039F60 /* AppDelegate.swift */,
 				9B5A9F9227F5A9F200ECA117 /* UserInfo.swift */,
 				9B22BA0C27EC97A600039F60 /* SceneDelegate.swift */,
@@ -140,6 +143,14 @@
 				9B22BA2D27EC97A600039F60 /* CatstagramUITestsLaunchTests.swift */,
 			);
 			path = CatstagramUITests;
+			sourceTree = "<group>";
+		};
+		9B6BFC7027FAC9ED0092291B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9B6BFC7127FACA410092291B /* HomeViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +289,7 @@
 				9B5A9F9127F5939800ECA117 /* UIViewController+Extention.swift in Sources */,
 				9B5A9F8D27F47BA500ECA117 /* Color+Extension.swift in Sources */,
 				9B5A9F9327F5A9F200ECA117 /* UserInfo.swift in Sources */,
+				9B6BFC7227FACA410092291B /* HomeViewController.swift in Sources */,
 				9B22BA0B27EC97A600039F60 /* AppDelegate.swift in Sources */,
 				9B22BA0D27EC97A600039F60 /* SceneDelegate.swift in Sources */,
 				9B5A9F8B27EF10C700ECA117 /* RegisterViewController.swift in Sources */,
