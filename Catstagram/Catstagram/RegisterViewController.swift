@@ -84,6 +84,8 @@ class RegisterViewController: UIViewController {
         default:
             fatalError("Missing TextField")
         }
+        // in textFieldEditingChanged
+        print(email)
     }
 
     @IBAction func backButtonDidTap(_ sender: UIBarButtonItem) {
@@ -93,7 +95,6 @@ class RegisterViewController: UIViewController {
     }
 
     @IBAction func registerButtonDidTap(_ sender: UIButton) {
-        self.navigationController?.popViewController(animated: true)
 
         let userInfo = UserInfo(
             email: self.email,
@@ -102,6 +103,9 @@ class RegisterViewController: UIViewController {
             password: self.password
         )
         self.userInfo?(userInfo)
+        self.navigationController?.popViewController(animated: true)
+        //in registerButtonDidTap
+        print(email)
     }
 
     // MARK: - Helpers
