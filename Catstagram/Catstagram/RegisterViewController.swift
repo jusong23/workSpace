@@ -3,7 +3,7 @@
 //  Catstagram
 //
 //  Created by 이주송 on 2022/04/04.
-//
+// 4월 5일 화
 import UIKit
 
 class RegisterViewController: UIViewController {
