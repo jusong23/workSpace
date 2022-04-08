@@ -24,10 +24,10 @@
 		9B6BFC7227FACA410092291B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6BFC7127FACA410092291B /* HomeViewController.swift */; };
 		9B9D7B5827FD973300E45C11 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D7B5627FD973300E45C11 /* FeedTableViewCell.swift */; };
 		9B9D7B5927FD973300E45C11 /* FeedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B9D7B5727FD973300E45C11 /* FeedTableViewCell.xib */; };
-		9B9D7B5C27FEEA1300E45C11 /* StoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D7B5A27FEEA1300E45C11 /* StoryTableViewCell.swift */; };
-		9B9D7B5D27FEEA1300E45C11 /* StoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B9D7B5B27FEEA1300E45C11 /* StoryTableViewCell.xib */; };
-		9B9D7B6427FEFD2400E45C11 /* StoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D7B6227FEFD2400E45C11 /* StoryCollectionViewCell.swift */; };
-		9B9D7B6527FEFD2400E45C11 /* StoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B9D7B6327FEFD2400E45C11 /* StoryCollectionViewCell.xib */; };
+		9B9D7B6827FFF88E00E45C11 /* StoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D7B6627FFF88E00E45C11 /* StoryTableViewCell.swift */; };
+		9B9D7B6927FFF88E00E45C11 /* StoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B9D7B6727FFF88E00E45C11 /* StoryTableViewCell.xib */; };
+		9B9D7B7027FFF97600E45C11 /* StoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D7B6E27FFF97600E45C11 /* StoryCollectionViewCell.swift */; };
+		9B9D7B7127FFF97600E45C11 /* StoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B9D7B6F27FFF97600E45C11 /* StoryCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,10 +69,10 @@
 		9B6BFC7127FACA410092291B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9B9D7B5627FD973300E45C11 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 		9B9D7B5727FD973300E45C11 /* FeedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedTableViewCell.xib; sourceTree = "<group>"; };
-		9B9D7B5A27FEEA1300E45C11 /* StoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryTableViewCell.swift; sourceTree = "<group>"; };
-		9B9D7B5B27FEEA1300E45C11 /* StoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryTableViewCell.xib; sourceTree = "<group>"; };
-		9B9D7B6227FEFD2400E45C11 /* StoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCollectionViewCell.swift; sourceTree = "<group>"; };
-		9B9D7B6327FEFD2400E45C11 /* StoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		9B9D7B6627FFF88E00E45C11 /* StoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryTableViewCell.swift; sourceTree = "<group>"; };
+		9B9D7B6727FFF88E00E45C11 /* StoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryTableViewCell.xib; sourceTree = "<group>"; };
+		9B9D7B6E27FFF97600E45C11 /* StoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		9B9D7B6F27FFF97600E45C11 /* StoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,10 +171,10 @@
 			children = (
 				9B9D7B5627FD973300E45C11 /* FeedTableViewCell.swift */,
 				9B9D7B5727FD973300E45C11 /* FeedTableViewCell.xib */,
-				9B9D7B5A27FEEA1300E45C11 /* StoryTableViewCell.swift */,
-				9B9D7B5B27FEEA1300E45C11 /* StoryTableViewCell.xib */,
-				9B9D7B6227FEFD2400E45C11 /* StoryCollectionViewCell.swift */,
-				9B9D7B6327FEFD2400E45C11 /* StoryCollectionViewCell.xib */,
+				9B9D7B6627FFF88E00E45C11 /* StoryTableViewCell.swift */,
+				9B9D7B6727FFF88E00E45C11 /* StoryTableViewCell.xib */,
+				9B9D7B6E27FFF97600E45C11 /* StoryCollectionViewCell.swift */,
+				9B9D7B6F27FFF97600E45C11 /* StoryCollectionViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -286,8 +286,8 @@
 				9B22BA1727EC97A600039F60 /* LaunchScreen.storyboard in Resources */,
 				9B9D7B5927FD973300E45C11 /* FeedTableViewCell.xib in Resources */,
 				9B22BA1427EC97A600039F60 /* Assets.xcassets in Resources */,
-				9B9D7B5D27FEEA1300E45C11 /* StoryTableViewCell.xib in Resources */,
-				9B9D7B6527FEFD2400E45C11 /* StoryCollectionViewCell.xib in Resources */,
+				9B9D7B6927FFF88E00E45C11 /* StoryTableViewCell.xib in Resources */,
+				9B9D7B7127FFF97600E45C11 /* StoryCollectionViewCell.xib in Resources */,
 				9B22BA1227EC97A600039F60 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,8 +316,8 @@
 				9B22BA3B27ECA5A700039F60 /* LoginViewController.swift in Sources */,
 				9B5A9F8F27F5917500ECA117 /* UIView+Extentsion.swift in Sources */,
 				9B5A9F9127F5939800ECA117 /* UIViewController+Extention.swift in Sources */,
-				9B9D7B5C27FEEA1300E45C11 /* StoryTableViewCell.swift in Sources */,
-				9B9D7B6427FEFD2400E45C11 /* StoryCollectionViewCell.swift in Sources */,
+				9B9D7B6827FFF88E00E45C11 /* StoryTableViewCell.swift in Sources */,
+				9B9D7B7027FFF97600E45C11 /* StoryCollectionViewCell.swift in Sources */,
 				9B5A9F8D27F47BA500ECA117 /* Color+Extension.swift in Sources */,
 				9B5A9F9327F5A9F200ECA117 /* UserInfo.swift in Sources */,
 				9B6BFC7227FACA410092291B /* HomeViewController.swift in Sources */,
