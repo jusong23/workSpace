@@ -16,6 +16,7 @@
 		9B7A1E99281AB9C0007EC16F /* QuoteGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A1E98281AB9C0007EC16F /* QuoteGeneratorTests.swift */; };
 		9B7A1EA3281AB9C0007EC16F /* QuoteGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A1EA2281AB9C0007EC16F /* QuoteGeneratorUITests.swift */; };
 		9B7A1EA5281AB9C0007EC16F /* QuoteGeneratorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A1EA4281AB9C0007EC16F /* QuoteGeneratorUITestsLaunchTests.swift */; };
+		9B7A1EB2281AC1B0007EC16F /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A1EB1281AC1B0007EC16F /* Quote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9B7A1E9E281AB9C0007EC16F /* QuoteGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuoteGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B7A1EA2281AB9C0007EC16F /* QuoteGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteGeneratorUITests.swift; sourceTree = "<group>"; };
 		9B7A1EA4281AB9C0007EC16F /* QuoteGeneratorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteGeneratorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9B7A1EB1281AC1B0007EC16F /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				9B7A1E83281AB9BE007EC16F /* SceneDelegate.swift */,
 				9B7A1E85281AB9BE007EC16F /* ViewController.swift */,
 				9B7A1E87281AB9BE007EC16F /* Main.storyboard */,
+				9B7A1EB1281AC1B0007EC16F /* Quote.swift */,
 				9B7A1E8A281AB9C0007EC16F /* Assets.xcassets */,
 				9B7A1E8C281AB9C0007EC16F /* LaunchScreen.storyboard */,
 				9B7A1E8F281AB9C0007EC16F /* Info.plist */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B7A1EB2281AC1B0007EC16F /* Quote.swift in Sources */,
 				9B7A1E86281AB9BE007EC16F /* ViewController.swift in Sources */,
 				9B7A1E82281AB9BE007EC16F /* AppDelegate.swift in Sources */,
 				9B7A1E84281AB9BE007EC16F /* SceneDelegate.swift in Sources */,

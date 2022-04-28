@@ -54,6 +54,10 @@
                                 <rect key="frame" x="170.5" y="333" width="73" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="명언생성"/>
+                                <connections>
+                                    <action selector="tapQuoteGenerator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="shf-XR-16n"/>
+                                    <action selector="tapQuoteGenertator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tVk-Sk-bNe"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -69,6 +73,10 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="72s-aT-ZBk" secondAttribute="trailing" constant="24" id="wLa-7n-cgu"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="nameLabel" destination="lfm-CR-dQt" id="FUe-W7-HQF"/>
+                        <outlet property="quoteLabel" destination="Vsx-de-S5j" id="taa-Ff-9pF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
