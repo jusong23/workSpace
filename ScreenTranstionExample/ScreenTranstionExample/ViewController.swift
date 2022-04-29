@@ -7,8 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
 
+class ViewController: UIViewController, SendDataDelegate{
+
+    @IBOutlet weak var nameLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print("VC 뷰가 로드되었다.")
@@ -50,9 +53,13 @@ class ViewController: UIViewController {
         viewController.modalPresentationStyle = .fullScreen
         // 기본적인 모달형식(밑에서 올라오지만 꽉 차지 않음)을 Fullscreen으로 변경 !
         viewController.name = "Gunter"
+        viewController.delegate = self
         self.present(viewController, animated: true, completion: nil)
     }
     
-    
+    func sendData(name: String) {
+        self.nameLabel.text = name
+        self.nameLabel.sizeToFit()
+    }
 }
 

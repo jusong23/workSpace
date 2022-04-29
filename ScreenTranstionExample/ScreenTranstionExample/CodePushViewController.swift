@@ -16,6 +16,7 @@ class CodePushViewController: UIViewController {
         super.viewDidLoad()
         if let codePushName = name {
             self.nameLabel.text = codePushName
+            self.nameLabel.sizeToFit()
         }
     }
     // data 받을 변수(name)를 옵셔널 바인딩 해주는 작업
