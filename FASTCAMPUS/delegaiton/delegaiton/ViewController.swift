@@ -11,10 +11,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var label: UILabel!
     
-//    @IBAction func button(_ sender: Any) {
-//        
-//    }
-//    
+    @IBAction func button(_ sender: Any) {
+        textFieldShouldReturn(textField)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         textField.delegate = self
