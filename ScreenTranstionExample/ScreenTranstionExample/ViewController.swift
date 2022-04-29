@@ -38,13 +38,18 @@ class ViewController: UIViewController {
     
 
     @IBAction func tapCodePushButton(_ sender: Any) {
-        guard let viewController = self.storyboard?.instantiateViewController(withIdentifier: "CodePushViewController") else { return }
+        guard let viewController = self.storyboard?.instantiateViewController(withIdentifier: "CodePushViewController") as? CodePushViewController else { return }
+        // 따옴 캐스팅 as? 뒤에 정의한 VC의 변수(var name)에 접근가능
+        viewController.name = "Gunter"
             self.navigationController?.pushViewController(viewController, animated: true)
     } // storu보드에 있는 VC를 인스턴스화 시켜줘야
     
     @IBAction func tapPresentButton(_ sender: Any) {
-        guard let viewController = self.storyboard?.instantiateViewController(withIdentifier: "CodePresentViewController") else {return}
-        viewController.modalPresentationStyle = .fullScreen // 기본적인 모달형식(밑에서 올라오지만 꽉 차지 않음)을 Fullscreen으로 변경 !
+        guard let viewController = self.storyboard?.instantiateViewController(withIdentifier: "CodePresentViewController") as? CodePresentViewController else {return}
+        // 따옴 캐스팅 as? 뒤에 정의한 VC의 변수(var name)에 접근가능
+        viewController.modalPresentationStyle = .fullScreen
+        // 기본적인 모달형식(밑에서 올라오지만 꽉 차지 않음)을 Fullscreen으로 변경 !
+        viewController.name = "Gunter"
         self.present(viewController, animated: true, completion: nil)
     }
     
