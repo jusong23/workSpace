@@ -57,6 +57,17 @@ class ViewController: UIViewController, SendDataDelegate{
         self.present(viewController, animated: true, completion: nil)
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let viewController = segue.destination as? SeguePushViewController {
+            viewController.name = "Gunter_Push"
+        } // 전달하려는 SeguePushVC를 따옴캐스팅, 데이터 전송
+        
+        else if let viewController = segue.destination as? SeguePresentViewController {
+            viewController.name = "Gunter_Present"
+        }
+    }
+
+    
     func sendData(name: String) {
         self.nameLabel.text = name
         self.nameLabel.sizeToFit()
