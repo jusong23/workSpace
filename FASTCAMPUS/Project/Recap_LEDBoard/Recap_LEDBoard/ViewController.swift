@@ -24,6 +24,8 @@ class SettingViewController: UIViewController {
     @IBOutlet weak var randomColorView: UIView!
     
     weak var delegate: RandomSettingDelegate?
+    var randomedText: String?
+    var textColor: UIColor = .black
     
     @IBAction func randomColorButton(_ sender: UIButton){
         let randomNumber = Int(arc4random_uniform(3))
@@ -34,6 +36,15 @@ class SettingViewController: UIViewController {
         self.selectedColorName.textColor = random.Color
     }
     
+    private func configureView() {
+        if let randomedText = randomedText {
+            self.textField.text = randomedText
+        };
+//        self.randomColorView.backgroundColor = textColor
+//        self.selectedColorName.textColor = textColor
+    }
+    
+    
     @IBAction func tapSaveButton(_ sender: UIButton) {
         self.delegate?.changeSetting(
             text: self.textField.text,
@@ -43,7 +54,7 @@ class SettingViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.configureView()
     }
 }
 

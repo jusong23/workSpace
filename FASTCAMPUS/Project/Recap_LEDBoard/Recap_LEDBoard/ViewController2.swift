@@ -18,12 +18,17 @@ class ViewController2: UIViewController,RandomSettingDelegate {
     @IBOutlet weak var labelName: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        labelName.sizeToFit()
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let settingViewController = segue.destination as?
             SettingViewController {
             settingViewController.delegate = self
+            settingViewController.randomedText = self.labelName.text
+//            settingViewController.randomColorView.backgroundColor = self.labelName.textColor
+//            settingViewController.selectedColorName.backgroundColor =
+//                self.labelName.textColor
         }
     }
 }
