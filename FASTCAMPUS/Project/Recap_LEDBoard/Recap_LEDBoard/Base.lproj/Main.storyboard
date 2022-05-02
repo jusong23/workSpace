@@ -112,10 +112,10 @@
             </objects>
             <point key="canvasLocation" x="168" y="221"/>
         </scene>
-        <!--View Controller2-->
+        <!--View Controller-->
         <scene sceneID="Acc-6C-ZEd">
             <objects>
-                <viewController id="tNA-zG-YRQ" customClass="ViewController2" customModule="Recap_LEDBoard" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="tNA-zG-YRQ" customClass="ViewController" customModule="Recap_LEDBoard" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BIf-0g-el4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
