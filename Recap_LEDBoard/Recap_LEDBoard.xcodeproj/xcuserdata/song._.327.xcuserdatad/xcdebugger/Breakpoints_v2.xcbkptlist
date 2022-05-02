@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F1607F6D-71E6-45F6-9D78-81EF5AA960B3"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "800703DA-15D8-4F56-906F-7A939174D6B7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Recap_LEDBoard/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "SettingViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "800703DA-15D8-4F56-906F-7A939174D6B7 - 4ef1c12b7ececa95"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Recap_LEDBoard.SettingViewController.randomColor.getter : Swift.Array&lt;__C.UIColor&gt;"
+                  moduleName = "Recap_LEDBoard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/song._.327/Documents/Xcode_App/workSpace/Recap_LEDBoard/Recap_LEDBoard/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "800703DA-15D8-4F56-906F-7A939174D6B7 - f1c46fb393ff777c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Recap_LEDBoard.SettingViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Recap_LEDBoard.SettingViewController"
+                  moduleName = "Recap_LEDBoard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/song._.327/Documents/Xcode_App/workSpace/Recap_LEDBoard/Recap_LEDBoard/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "800703DA-15D8-4F56-906F-7A939174D6B7 - e4f599bbdb082333"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Recap_LEDBoard.SettingViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Recap_LEDBoard.SettingViewController&gt;"
+                  moduleName = "Recap_LEDBoard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/song._.327/Documents/Xcode_App/workSpace/Recap_LEDBoard/Recap_LEDBoard/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
