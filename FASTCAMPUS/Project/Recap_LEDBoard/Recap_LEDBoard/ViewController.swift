@@ -7,9 +7,11 @@
 
 import UIKit
 
+protocol RandomSettingDelegate: AnyObject{
+    func changeSetting(text: String?, textColor: UIColor)
+}
+
 class SettingViewController: UIViewController {
-//    let randomColor = [UIColor.red, UIColor.black, UIColor.blue]
-//    let randomColorName = ["red", "black", "blue"]
 
     let randoms = [
         randomContents(Color: .red, name: "red"),
@@ -17,10 +19,11 @@ class SettingViewController: UIViewController {
         randomContents(Color: .blue, name: "blue")
     ]
     
-    
     @IBOutlet weak var selectedColorName: UILabel!
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var randomColorView: UIView!
+    
+    weak var delegate: RandomSettingDelegate?
     
     @IBAction func randomColorButton(_ sender: UIButton){
         let randomNumber = Int(arc4random_uniform(3))
@@ -32,6 +35,9 @@ class SettingViewController: UIViewController {
     }
     
     @IBAction func tapSaveButton(_ sender: UIButton) {
+        self.delegate?.changeSetting(
+            text: self.textField.text,
+            textColor: self.randomColorView.backgroundColor ?? .black)
         self.navigationController?.popViewController(animated: true)
     }
     

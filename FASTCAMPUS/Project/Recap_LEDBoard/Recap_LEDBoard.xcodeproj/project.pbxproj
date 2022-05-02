@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B7290F3281F7C4E003CFE57 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7290F2281F7C4E003CFE57 /* ViewController2.swift */; };
 		9BCDA537281ECCD500A7FA9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCDA536281ECCD500A7FA9B /* AppDelegate.swift */; };
 		9BCDA539281ECCD500A7FA9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCDA538281ECCD500A7FA9B /* SceneDelegate.swift */; };
 		9BCDA53B281ECCD500A7FA9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCDA53A281ECCD500A7FA9B /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B7290F2281F7C4E003CFE57 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		9BCDA533281ECCD500A7FA9B /* Recap_LEDBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recap_LEDBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BCDA536281ECCD500A7FA9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BCDA538281ECCD500A7FA9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				9BCDA538281ECCD500A7FA9B /* SceneDelegate.swift */,
 				9BCDA53A281ECCD500A7FA9B /* ViewController.swift */,
 				9BCDA53C281ECCD500A7FA9B /* Main.storyboard */,
+				9B7290F2281F7C4E003CFE57 /* ViewController2.swift */,
 				9BCDA53F281ECCD800A7FA9B /* Assets.xcassets */,
 				9BCDA541281ECCD800A7FA9B /* LaunchScreen.storyboard */,
 				9BCDA544281ECCD800A7FA9B /* Info.plist */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B7290F3281F7C4E003CFE57 /* ViewController2.swift in Sources */,
 				9BCDA53B281ECCD500A7FA9B /* ViewController.swift in Sources */,
 				9BCDA537281ECCD500A7FA9B /* AppDelegate.swift in Sources */,
 				9BF315B0281F73D300A92745 /* RandomContents.swift in Sources */,
