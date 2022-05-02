@@ -26,6 +26,7 @@ class SettingViewController: UIViewController {
     weak var delegate: RandomSettingDelegate?
     var randomedText: String?
     var textColor: UIColor = .black
+    var backgroundColor: UIColor = .black
     
     @IBAction func randomColorButton(_ sender: UIButton){
         let randomNumber = Int(arc4random_uniform(3))
@@ -40,8 +41,8 @@ class SettingViewController: UIViewController {
         if let randomedText = randomedText {
             self.textField.text = randomedText
         };
-//        self.randomColorView.backgroundColor = textColor
-//        self.selectedColorName.textColor = textColor
+       self.randomColorView.backgroundColor = self.textColor
+        self.selectedColorName.textColor = self.textColor
     }
     
     
